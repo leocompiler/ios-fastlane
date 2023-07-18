@@ -16,13 +16,13 @@
 - Escolhi a opção "4. 🛠  Manual setup - manually setup your project to automate your tasks"
 
 - Edit o arquivo Fastfile
-<div>
+```javascript
 platform :ios do
   lane :build do
     build_app(scheme: "ios-fastlane", configuration: "Release")
   end
 end
-</div>
+```
 - fastlane build
 
 
