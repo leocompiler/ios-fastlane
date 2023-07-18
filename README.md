@@ -11,19 +11,19 @@
 
 ## Comandos 
 
-gem install fastlane -NV
-fastlane init
-Escolhi a opção "4. 🛠  Manual setup - manually setup your project to automate your tasks"
+- gem install fastlane -NV
+- fastlane init
+- Escolhi a opção "4. 🛠  Manual setup - manually setup your project to automate your tasks"
 
-Edit o arquivo Fastfile
-
+- Edit o arquivo Fastfile
+<div>
 platform :ios do
   lane :build do
     build_app(scheme: "ios-fastlane", configuration: "Release")
   end
 end
-
-fastlane build
+</div>
+- fastlane build
 
 
  
